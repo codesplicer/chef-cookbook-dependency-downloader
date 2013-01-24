@@ -1,0 +1,28 @@
+{
+  "name": "chef-dependency-downloader",
+  "description": "Script to download dependency cookbooks for a given target chef cookbook",
+  "version": "0.1.0",
+  "homepage": "https://github.com/codesplicer/chef-dependency-downloader",
+  "author": {
+    "name": "Vik Bhatti",
+    "email": "vik@vikbhatti.com"
+  },
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "buffered-reader": "~1.0.1",
+    "request": "~2.12.0",
+    "underscore": "~1.4.3",
+    "lazy": "~1.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codesplicer/chef-dependency-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codesplicer/chef-dependency-downloader/issues"
+  },
+  "main": "./downloader",
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
